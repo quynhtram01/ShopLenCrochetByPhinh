@@ -1,0 +1,47 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important ;
+}
+.banner {
+  background: url("img/banner.jpg") center center;
+  height: 500px;
+  width: 100%;
+}
+.account-language {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.account,
+.vietnamese,
+.english {
+  text-decoration: none;
+  padding: 7px;
+  display: inline-block;
+  margin: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.account img,
+.vietnamese img,
+.english img {
+  height: 40px;
+}
+.account a,
+.vietnamese a,
+.english a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-weight: lighter;
+  font-size: 17px;
+}
+a.english {
+  margin-right: 75px;
+  margin-left: 20px;
+}
+.logo {
+  background: url("img/logo.png") center center no-repeat;
+  margin-top: 160px;
+  height: 170px;
+}
